@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Contact Us</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    
+    <form action ="output.html" method="POST">
+        First Name: <input type="text" name ="first"/><br>
+        Last Name: <input type="text" name ="last"/><br>
+        Email: <input type="text" name ="email"/><br>
+        
+        License type: 
+        <input type="radio" name="answer" value="Business" checked/>Business
+        <input type="radio" name="answer" value="Personal"/>Personal<br>
+        
+        <select name ="reason">
+            <option value ="Choose a reason">Choose a reason</option>
+            <option value ="Software support">Software support</option>
+            <option value ="Hardware support">Hardware support</option>
+            <option value ="Request information">Request information</option>
+        </select><br>
+        
+        <input type="checkbox" name="terms" value="terms"/>I have read the terms of the agreement.<br>
+        <input type="submit"/>
+     
+    </form>
+   
+</html>
