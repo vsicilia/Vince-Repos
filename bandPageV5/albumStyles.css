@@ -1,0 +1,97 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 28, 2017, 9:38:57 PM
+    Author     : vincentsiciliano
+*/
+
+    
+
+   
+  
+  .album {
+            width: 100%;
+            text-align: center;
+            float:  left;
+            font: 200% monaco;
+            color:  appworkspace;
+        }
+  
+        a {
+            text-align: center;
+        }
+
+        a:link {
+            color: Green;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: aqua;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: deeppink;
+            font: 400% monaco;
+            background-color: aquamarine;
+        }
+
+        a:active {
+            font-weight: bold;
+        }
+  
+  
+  
+  th{
+    font-weight: bold;
+    color: darkcyan;
+    
+  }
+  
+ .italic {
+    font-style: italic;
+    
+  }
+  
+  #emphasis {
+ 
+    color: fuchsia;
+    text-align: center;
+    font: italic 200% fantasy;
+  
+  }
+  
+  body{
+         background-image: url("https://www.walldevil.com/wallpapers/a90/wallpapers-cool-music-backgrounds-circle-images.jpg");
+         background-size: cover;
+         width: 100%;
+        }
+  
+        table{
+            border-collapse: collapse;
+        }
+        
+  
+  
+  
+tbody tr:nth-child(even) {
+  background-color: aquamarine;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: aqua;
+}
+
+/* a. Links should only be underlined when you are hovering over a link. The other states should not be underlined.
+
+b. When hovering, set the background of the link to a different color.
+
+2. Italicize the track numbers, titles, and lengths.
+
+3. Set the table background to a color of your choice.
+
+*/
