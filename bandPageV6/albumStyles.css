@@ -1,0 +1,58 @@
+
+
+   
+  
+  .album {
+            width: 100%;
+            text-align: center;
+            float:  left;
+            font: 200% monaco;
+            color:  appworkspace;
+        }
+  
+        a {
+            text-align: center;
+        }
+
+        a:link {
+            color: orange;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: orange;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: deeppink;
+            font: monaco;
+            background-color: orange;
+        }
+
+        a:active {
+            font-weight: bold;
+        }
+  
+  
+
+    
+  }
+  
+
+  
+  #emphasis {
+ 
+    color: fuchsia;
+    text-align: center;
+    font: italic 200% fantasy;
+  
+  }
+  
+
+        
+      
+  
+  
+  
+
