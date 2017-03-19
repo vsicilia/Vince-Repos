@@ -1,0 +1,65 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 1, 2017, 1:22:24 AM
+    Author     : vincentsiciliano
+*/
+
+footer {
+    
+     text-align: center;  font-weight: lighter; font: 75%% helvetica;
+     
+}
+
+h4  {
+    text-align: center; font: 200% monaco; font-style: italic;
+}
+
+/*.nav {
+    
+    text-align: center; font: .9em script;
+    background-color: rgba(12,15,21,0.1);
+    
+   
+}*/
+
+body {
+        background-color: rgba(70,15,100,0.1);   
+        
+}
+
+
+a {
+  font-family: monospace;
+  text-decoration: underline;
+  font-weight: none;
+  
+}
+
+a:link{
+    color: aqua;
+    text-decoration: none;
+}
+
+a:visited{
+    color: blueviolet;
+}
+
+a:hover{
+     font-weight: bold; 
+}
+
+a:active{
+    text-decoration: none; /*this doesn't do anything. maybe bc it's not online?*/
+}
+
+
+.beverage, thead{
+  padding-left: 10px;
+  font-style:  italic;
+}
+
+
